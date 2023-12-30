@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="borderb">
+        <div class="container">
+            <div class="registration">
+                <h2>Registration here</h2>
+                <div class="hrline"></div>
+                <form id="register" method="post">
+                    <label for="username">Username</label><br>
+                    <input class="inputbox" type="text" placeholder="Enter username" name="username"> <br><br>
+                    <label for="email"> Email</label><br>
+                    <input class="inputbox" type="text" placeholder="Enter your valied email" name="email"><br><br>
+                    <label for="password">Password</label><br>
+                    <input class="inputbox" type="password" placeholder="Enter password" name="password"
+                        id="password"><br><br>
+                    <label for="phone">Phone number</label><br>
+                    <input class="inputbox" type="tel" placeholder="Enter phone number" name="phone"><br><br>
+                    <label for="">Date of birth</label><br>
+                    <input class="inputbox" type="date" name="date"><br><br>
+                    <label for="">Gender :</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" name="Gender" id="male">
+                    <span>Male</span>
+                    <input type="radio" name="Gender" id="female">
+                    <span>Female</span>
+                    <input type="radio" name="Gender" id="others">
+                    <span>Others</span>
+                    <br><br>
+                    <label for="">Knows language :</label>
+                    <select name="language" id="selectbox">
+                        <option value="English">English</option>
+                        <option value="bangla">bangla</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Urdu">Urdu</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit" class="stop">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
